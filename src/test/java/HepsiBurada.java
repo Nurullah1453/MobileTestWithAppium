@@ -17,7 +17,7 @@ public class HepsiBurada {
         caps.setCapability("platformVerison","12.0");
         caps.setCapability("deviceName","Xiaomi M2007J3SG");
         caps.setCapability("automationName","UiAutomator2");
-        caps.setCapability("app","C:\\Users\\nurul\\IdeaProjects\\MobileTestAppiumm\\src\\Apps\\hepsiBurada.apk");
+        caps.setCapability("app","C:\\Users\\nurul\\IdeaProjects\\MobileTestWithAppium\\src\\Apps\\hepsiBurada.apk");
 
         AndroidDriver<AndroidElement> driver=new AndroidDriver<AndroidElement>(new URL("http://localhost:4723/wd/hub"),caps);
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
